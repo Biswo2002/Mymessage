@@ -1,10 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Onboarding from '../../screen/private/Onboarding'
+import { Box } from 'native-base'
 
 const PrivateRoutes = () => {
   return (
-    <Onboarding />
+    <Box>
+      <Text>
+        hii
+      </Text>
+    </Box>
   )
 }
 
