@@ -3,17 +3,13 @@ import {CompositeNavigationProp, RouteProp} from '@react-navigation/native';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 
 export type PublicRoutesType = {
-
+  Welcome: undefined;
+  onboarding: undefined;
 };
 
-export type PrivateRoutesType = {
+export type PrivateRoutesType = {};
 
-};
-
-
-export type BottomTabTypes = {
- 
-};
+export type BottomTabTypes = {};
 
 export type PublicNavigationProps = NativeStackNavigationProp<PublicRoutesType>;
 
